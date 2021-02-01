@@ -15,3 +15,12 @@ print ('Mencoba membuat object dari BangunRuang')
 b1 = BangunRuang()
 print(b1.info())
 print (b1.hitung_luas())
+
+#pholimorphism : kemampuan object untuk merespon berbeda, terhadap panggilan method yang sama
+daftar_bangun_ruang = []
+daftar_bangun_ruang.append (p1)
+daftar_bangun_ruang.append (s1)
+
+print ('\npholimorphism')
+for bangun_ruang in daftar_bangun_ruang :
+    print(bangun_ruang.info())
